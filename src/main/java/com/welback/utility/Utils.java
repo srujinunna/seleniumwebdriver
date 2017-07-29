@@ -21,7 +21,7 @@ public class Utils {
 	private static WebDriver driver = null;
 	private static Map<String, WebDriver> drivers = new HashMap<String, WebDriver>();
 
-	public static WebDriver openBrowser(String browserName) {
+/*	public static WebDriver openBrowser(String browserName) {
 
 		//String browserName;
 		try {
@@ -36,7 +36,7 @@ public class Utils {
 				}
 
 				break;
-			/*case "Chrome":
+			case "Chrome":
 				driver = drivers.get("Chrome");
 				if (driver == null) {
 					System.setProperty("webdriver.chrome.driver", Constant.CHROME_DRIVER);
@@ -51,7 +51,7 @@ public class Utils {
 					driver = new InternetExplorerDriver();
 					drivers.put("IE", driver);
 				}
-				break;*/
+				break;
 
 			case "HTML":
 				driver = drivers.get("HTML");
@@ -72,7 +72,7 @@ public class Utils {
 		for (String key : drivers.keySet()) {
 			drivers.get(key).close();
 		}
-	}
+	}*/
 
 	public void waitForElement(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
