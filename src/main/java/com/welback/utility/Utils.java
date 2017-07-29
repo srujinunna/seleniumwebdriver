@@ -36,7 +36,7 @@ public class Utils {
 				}
 
 				break;
-			case "Chrome":
+			/*case "Chrome":
 				driver = drivers.get("Chrome");
 				if (driver == null) {
 					System.setProperty("webdriver.chrome.driver", Constant.CHROME_DRIVER);
@@ -51,7 +51,7 @@ public class Utils {
 					driver = new InternetExplorerDriver();
 					drivers.put("IE", driver);
 				}
-				break;
+				break;*/
 
 			case "HTML":
 				driver = drivers.get("HTML");
