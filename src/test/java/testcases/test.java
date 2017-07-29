@@ -11,7 +11,7 @@ public class test {
 	private WebDriver driver;
 	@BeforeTest
 	public void start() {
-		driver = Utils.openBrowser("Firefox");
+		driver = Utils.openBrowser("HTML");
 		driver.get("http://google.com");
 	}
 	@Test
