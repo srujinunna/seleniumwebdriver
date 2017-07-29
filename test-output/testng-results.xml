@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3220" started-at="2017-07-29T11:41:16Z" finished-at="2017-07-29T11:41:19Z">
+  <suite name="Default suite" duration-ms="3596" started-at="2017-07-29T11:49:59Z" finished-at="2017-07-29T11:50:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3220" started-at="2017-07-29T11:41:16Z" finished-at="2017-07-29T11:41:19Z">
+    <test name="Default test" duration-ms="3596" started-at="2017-07-29T11:49:59Z" finished-at="2017-07-29T11:50:02Z">
       <class name="testcases.test">
-        <test-method status="PASS" signature="start()[pri:0, instance:testcases.test@47c62251]" name="start" is-config="true" duration-ms="3151" started-at="2017-07-29T18:41:16Z" finished-at="2017-07-29T18:41:19Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:testcases.test@5c3bd550]" name="start" is-config="true" duration-ms="3551" started-at="2017-07-29T18:49:59Z" finished-at="2017-07-29T18:50:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="testgoogle()[pri:0, instance:testcases.test@47c62251]" name="testgoogle" duration-ms="15" started-at="2017-07-29T18:41:19Z" finished-at="2017-07-29T18:41:19Z">
+        <test-method status="PASS" signature="testgoogle()[pri:0, instance:testcases.test@5c3bd550]" name="testgoogle" duration-ms="13" started-at="2017-07-29T18:50:02Z" finished-at="2017-07-29T18:50:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgoogle -->
-        <test-method status="PASS" signature="down()[pri:0, instance:testcases.test@47c62251]" name="down" is-config="true" duration-ms="4" started-at="2017-07-29T18:41:19Z" finished-at="2017-07-29T18:41:19Z">
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.test@5c3bd550]" name="down" is-config="true" duration-ms="3" started-at="2017-07-29T18:50:02Z" finished-at="2017-07-29T18:50:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- down -->

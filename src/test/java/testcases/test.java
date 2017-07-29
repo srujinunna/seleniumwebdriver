@@ -1,5 +1,6 @@
 package testcases;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -11,7 +12,7 @@ public class test {
 	private WebDriver driver;
 	@BeforeTest
 	public void start() {
-		driver = Utils.openBrowser("HTML");
+		driver = new HtmlUnitDriver();
 		driver.get("http://google.com");
 	}
 	@Test
@@ -21,7 +22,7 @@ public class test {
 	}
 	@AfterTest
 	public void down() {
-		Utils.closeAllDriver();
+		driver.close();
 	}
 	
 }
