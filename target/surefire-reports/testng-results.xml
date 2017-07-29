@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7246" started-at="2017-07-29T10:08:54Z" finished-at="2017-07-29T10:09:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7246" started-at="2017-07-29T10:08:54Z" finished-at="2017-07-29T10:09:01Z">
+      <class name="testcases.test">
+        <test-method status="PASS" signature="start()[pri:0, instance:testcases.test@246ae04d]" name="start" is-config="true" duration-ms="7109" started-at="2017-07-29T17:08:54Z" finished-at="2017-07-29T17:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="testgoogle()[pri:0, instance:testcases.test@246ae04d]" name="testgoogle" duration-ms="15" started-at="2017-07-29T17:09:01Z" finished-at="2017-07-29T17:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgoogle -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.test@246ae04d]" name="down" is-config="true" duration-ms="105" started-at="2017-07-29T17:09:01Z" finished-at="2017-07-29T17:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- testcases.test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
